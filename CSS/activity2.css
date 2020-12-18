@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+}
+
+.photo {
+  background-color: rgb(176, 213, 236);
+}
+
+h1,
+h2 {
+  background-color: rgb(77, 122, 150);
+  color: white;
+  letter-spacing: 10px;
+}
+
+.aboutme {
+  background-color: slategray;
+  text-align: left;
+  color: white;
+}
+
+.aboutme b {
+  color: red;
+}
+
+.letter {
+  background-color: slategray;
+  text-align: left;
+  color: red;
+}

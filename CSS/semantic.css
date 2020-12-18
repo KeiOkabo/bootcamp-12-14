@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  border: 4px solid red;
+  height: 100px;
+}
+
+nav {
+  border: 4px solid red;
+  height: 100px;
+}
+
+main {
+  /* border: 4px solid red; */
+  height: 600px;
+  overflow: hidden;
+}
+
+section {
+  border: 4px solid red;
+  height: 600px;
+  float: left;
+  width: 70%;
+}
+
+.sub1,
+.sub2 {
+  border: 4px solid red;
+  border-bottom: none;
+  border-right: none;
+  height: 300px;
+}
+
+.sub1 {
+  border-top: none;
+}
+
+aside {
+  border: 4px solid red;
+  height: 600px;
+  float: left;
+  width: 30%;
+}
+
+footer {
+  border: 4px solid red;
+  height: 100px;
+}

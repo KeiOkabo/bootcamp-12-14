@@ -1,0 +1,42 @@
+/* reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.box {
+  border: 4px soli black;
+  height: 400px;
+  width: 70%;
+  margin: 0 auto;
+  /* overflow: auto; */
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  border-bottom: 4px solid black;
+  padding: 30px;
+}
+
+.list li {
+  list-style-type: none;
+  display: inline;
+}
+
+.list {
+  text-align: center;
+  margin: 20px;
+  word-spacing: 65px;
+  border-bottom: 3px solid lightgrey;
+  padding-bottom: 20px;
+}
+
+.image {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  margin: 20px;
+}

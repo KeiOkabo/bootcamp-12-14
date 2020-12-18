@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First website</title>
+  <!-- external css -->
+  <link rel="stylesheet" href="CSS/style.css">
+<!-- internal css -->
+
+<style>
+  h2{
+    background-color: indianred;
+  }
+  h3{
+    background-color: indigo;
+  }
+  h1{
+    background-color: lightcoral;
+  }
+</style>
+
+</head>
+<body>
+  <!-- heading element to add title of the content -->   
+<div class=" kei " style="background-color: greenyellow;">
+  <h1 style="background-color: lightseagreen;"><span style="color: red;">Hello</span>   world!</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ut perspiciatis omnis iusto at facere! Similique suscipit accusantium rem architecto exercitationem. Ad architecto, asperiores libero sequi quasi consectetur cupiditate eveniet.</p>
+  <h2>heading2</h2>
+  <h3>heading3</h3>
+  <h4>heading4</h4>
+  <h5>heading5</h5>
+  <h6>heading6</h6>
+</div>
+  
+  <!-- paragraph element to place content -->
+  <div class ="box2" style="background-color: magenta;"> 
+  
+  <P>Lorem <a href="">ipsum dolor</a>  sit amet consectetur adipisicing elit. Voluptas, neque.</P>
+  <P>Lorem ipsum, dolor sit amet <i>consectetur adipisicing</i>  elit. Reiciendis dolorem debitis perspiciatis tempore ipsa temporibus </P>
+  <P>
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, quam ullam numquam dolor nobis non voluptatibus labore! <span style="background-color: white;">Quaerat reprehenderit nemo</span>  nisi quas, temporibus obcaecati necessitatibus veritatis porro quam ut nam.</P>
+  </div>
+    <P>How are you?</P>
+ <!-- hr = horizantal rule or line -->
+  <hr>
+  <hr>
+  <!--list elements 
+    ol = order list (parent element)
+    ul = unordered list (parent element)  
+    li = list item (child element)-->
+
+    <!-- nested list = within another list -->
+    <div class  = "category"   style="background-color: purple;">
+      <h3>category</h3>
+          <ol>
+            <li>
+              <span style="color: red;">t</span>ravel
+              <ul>
+                <li>asia
+                  <ol class="asia">
+                    <li>phillipine</li>
+                    <li>korea</li>
+                    <li>vietnam</li>
+                  </ol>
+                </li>
+                <li>euro</li>
+                <li>america</li>
+              </ul>
+            </li>
+            <li>food</li>
+            <li>sport</li>
+            <li>news</li>
+          </ol>
+    </div>
+ 
+<div style="background-color: seagreen;">
+      <h3>to do list</h3>
+          　<ul>
+              <li>
+                grocery
+                <ol>
+                  <li>breads</li>
+                  <li>egg</li>
+                  <li>milk</li>
+                </ol>
+              </li>
+              <li>study</li>
+              <li>lunch</li>
+              <li>date</li>
+              <li>dinner</li>
+            </ul>
+</div>
+
+
+    <!-- inline element 
+      b = bold
+      i = italic
+      a = anchor for link
+      img = image element 
+      br = break line
+    -->
+    <div style="background-color: red;">
+          <span style="background-color: slateblue;">
+              <b>this is a bold elemnet</b>
+            <br>
+            <br>
+            <i>this is an italic elemnet</i>
+            
+            <!-- link element 
+              a = link element 
+              href = hypertext refernce or url (attribute)
+
+              attribute = helper of the element, add information, and control element
+            -->
+            <a href="http://facebook.com" target="_blank">click 
+              to facebook</a>
+              <br>
+            <a href="http://kredo.jp" target="_blank">click to kredo</a>
+            <a href="#top">click to top</a>
+
+            <!-- image element
+                img = image element
+                src = source or url (attribute)
+                alt = alternative text (attribute)
+
+                width = horizonatl size of photo
+                height = vertical size of photo
+            -->
+            <img src="image/addidas2.jpg" alt="samle of addidas t-shirt" width="400px" height="300px">
+            <img src="image/nike.jpg" alt="sample of Nike T-shirt" width="350px" height="250px">
+            <img src="image/puma.jpg" alt="sample of puma t-shirt" width="150px" height="100px">
+        </span>
+    </div>
+    
+    
+
+    <!-- group element 
+        div dividion element, to group inline and block elements
+        spn = select text, to group inline element only
+    -->
+    <div style="background-color: grey;">
+      <h2>this is a div 1 element </h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, libero?</p>
+      <a href="#">instagram</a>
+    </div>
+    <div class ="kei okabo" style="background-color: lightgreen;">
+      <h2>this is a div 2 element</h2> 
+      <ol>
+        <li>web basic</li>
+        <li>web desighn</li>
+        <li>web development</li>
+      </ol>
+      <a href="#">twitter</a>
+    </div>
+    <span style="background-color: yellow;">
+      <b>this is a  span 1 element</b>
+      <i>this is an italic sample element</i>
+    </span>
+    <span style="background-color: pink;">
+      <a href="">this is a  span 2 element</a> 
+      <a href="#">facebook</a>
+    </span>
+     
+
+    <!-- form element
+          form = parant element 
+          input = 
+          lable =
+          select =
+          option =
+          textarea =
+          button
+
+          --attribute;
+          action 
+          method 
+          type
+          name 
+          id
+          value
+          placeholder
+          required 
+          minlenght
+          maxlenght
+
+          -- attribute values;
+          text
+          email
+          password
+          telephone
+          number
+          data
+          file 
+          radio
+          checkbox
+          submit
+
+    -->
+    
+    <form action="https://kredo.jp" method="post">
+     <br>
+      <div>
+         <label for="fname">Your firstname</label>
+         <input type="text" name="firstname" id="fname" placeholder="type your firstname here" required minlength="3" maxlength="20">
+      </div>
+
+      <div>
+          <label for="lname">Your Lastname</label>
+          <input type="text" name="lastname" id="lname" required>
+      </div>
+
+      <div>
+          <label for="email">Your Email</label>
+          <input type="email" name="email" id="email" placeholder="type your email here" required  >
+      </div>
+       <div>
+          <label for="pword">Your Password</label>
+          <input type="passWord" name ="password" id="pword">
+       </div>
+      
+       <div>
+           <label for="phone">Your Phone No:</label>
+           <input type="telephone" name="telephone" id="phone">
+       </div>
+       <div>
+           <label for="bdate">Your Birth date</label>
+           <input type="date" name="birth date" id="bdate">
+       </div>
+        
+       <div>
+           <label for="card">Your Credit Card No,:</label>
+           <input type="number" name="c-card" id="card">
+       </div>
+
+       <div>
+           <label for="upload">Upload your photo</label>
+           <input type="file" name="upload" id="upload">
+       </div>
+
+      <div>
+            <p>Choose your gender</p>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+
+            <input type="radio" name="gender" id="LGBT" value="LGBT">
+            <label for="LGBT">LGBT</label>
+      </div> 
+      <div>
+            <P>Choose your favorite device/s</P>
+            <input type="checkbox" name="device" id="laptop" value="laptop">
+            <label for="laptop">Laptop</label>
+
+            <input type="checkbox" name="device" id="ipad" value="ipad">
+            <label for="ipad">Ipad</label>
+
+            <input type="checkbox" name="device" id="tablet" value="tablet">
+            <label for="tablet">Tablet</label>
+      </div>
+
+      <div>
+            <label for="anime">Select Your anime;</label>
+            <select name="anime" id="anime">
+            <option value="naruto">Naruto</option>
+            <option value="ghostfighter">ghostfighter</option>
+            <option value="onepiece">One Piece</option>
+            </select>
+      </div>
+       
+
+     <div>
+          <label for="comment">Your Comment</label>
+          <br>
+          <textarea name="comment" id="comment" cols="30" rows="10" placeholder="type your comment here"></textarea>
+     </div>  
+
+       <input type="submit" name="submit" value="Ok">
+       <button>send</button>
+    </form>
+
+    <!-- table element
+         table = parent element
+         tr = table row (row)
+         th = table header (column) for title of the column
+         td = table data (column) for content or item of the column
+
+         colspan = combine column
+         rowspan = combine row
+    -->
+    <table id="joe" border="1">
+      <tr>
+           <th>Travel</th>
+           <th>Sports</th>
+           <th>Food</th>
+           <th>Movie</th>
+      </tr>
+      <tr>
+            <td colspan="2">Asia</td>
+            <!-- <td>National Basketball Assosiation</td> -->
+            <td rowspan="2">Japanese food</td>
+            <td rowspan="3">sci-fi</td>
+      </tr>
+      <tr>
+            <td>South America</td>
+            <td>FIFA</td>
+            <!-- <td>Cebu Lichon</td> -->
+            <!-- <td>Documentary</td> -->
+      </tr>
+      <tr>
+            <td colspan="4">Austraria</td>
+            <!-- <td>rugby</td>
+            <td>pasta</td> -->
+            <!-- <td>drama</td>  -->
+      </tr>
+      
+    </table>
+ 
+</body>
+</html>
